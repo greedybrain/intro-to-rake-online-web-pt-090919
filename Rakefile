@@ -4,5 +4,10 @@ namespace :greeting do
   task :hello do
     puts "hello from Rake!"
   end
+  
+  desc 'outputs hello in Spanish to the terminal'
+  task :hola do
+    puts "holaa from Rake!"
+  end
 
 end
